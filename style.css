@@ -111,6 +111,23 @@ html{
         border-radius: 0px 10px 10px 0px;
     }
     .main-container .card button{
-        margin-top: 2.5rem;
+        margin-top: 5rem;
+    }
+}
+@media(min-width:700px){
+    .main-container .card2{
+        border-radius:0;
+
+    }
+    .main-container .card1{
+        border-radius: 10px 0px 0px 10px;
+    }
+    .main-container .card3{
+        border-radius: 0px 10px 10px 0px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
     }
 }
